@@ -1,0 +1,5 @@
+services:
+  uvicorn_server:
+    build: .
+    ports:
+      - "80:8000"
